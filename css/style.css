@@ -1,0 +1,428 @@
+html{
+    box-sizing: border-box;
+}
+
+a{
+    color:inherit;
+    color: #607CE6;
+}
+
+header{
+    padding: 30px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav-top{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 0 36px 0;
+    border-bottom: 1px solid #888;
+    margin: 0%;
+    align-self: center;
+    margin-bottom: 16px;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.menu-list{
+  display:flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    text-align:right;
+}
+
+.menu-link{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu-down{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 19.2px;
+    color:#1c1919;
+}
+
+.menu{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-phone{
+    flex-direction: row;
+}
+
+.phone{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.russia-zavod{
+    margin-top: 80px;
+
+}
+
+.text-zavod{
+    display: flex;
+    gap: 60px;
+
+}
+
+.text-height{
+    max-width: 580px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.text-small{
+    max-width: 379px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin-top: 25px;
+}
+
+.zavod-images{
+    margin-top: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.predpriatia{
+    padding: 100px 0 80px;
+}
+
+.predpriatia-new{
+    display: flex;
+    justify-content: space-between;
+}
+
+.predpriatia-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-bottom: 30px;
+}
+
+.predpriatia-text{
+    max-width: 580px;
+    font-weight: 400;
+    line-height: 140%;
+    gap: 20px;
+}
+
+.predpriatia-down{
+    max-width: 580px;
+    margin-top: 24px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 32px;
+}
+
+.predpriatia-photo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prepriatia-img{
+    max-width: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.production{
+    margin-bottom: 80px;
+}
+
+.production-text{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 32px;
+}
+
+.production-setka{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 20px;
+}
+
+.production-tovar{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0 32px 24px;
+    background: var(--light-gray, #F5F5F5);
+}
+
+.production-img{
+    max-width: 200px;
+    max-height: 194px;
+    margin-bottom: 110px;
+}
+
+
+.production-h3{
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 120%;
+   position: relative;
+   margin-top: auto;
+}
+
+.production-a{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;  
+    margin-top: auto;
+    margin: 12px 0 0 0;
+    max-width: 99px;
+}
+
+.carta-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+
+.map{
+    max-width: 1180px;
+    margin-bottom: 100px;
+}
+
+.news{
+    margin-bottom: 80px;
+}
+
+
+.news-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 32px;
+}
+
+.news-setka{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 120px;
+}
+
+.news-test{
+    display: flex;
+    flex-direction: column;
+    background: var(--light-gray, #F5F5F5);
+}
+
+.news-img{
+    max-width: 380px;
+    height: 251px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.news-inner{
+    max-width: 348px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 83px;
+}
+
+.news-info{
+    margin-top: auto;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    line-height: 140%;
+}
+
+.news-a{
+    text-decoration: none;
+    color: var(--accent, #607CE6);
+}
+
+.news-p{
+    color: var(--gray, #888);
+}
+
+.footer{
+   background: var(--dark, #333);
+}
+
+.footer-down{
+    padding: 56px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img{
+    color: white;
+    max-width: 180px;
+    max-height: 38px;
+}
+
+.footer-nav{
+    display: flex;
+   justify-content: space-between;
+    color: var(--light, #FFF);
+    gap:91px;
+}
+
+.footer-text{
+    list-style: none;
+    margin-bottom: 24px;
+    max-width: 155px;
+}
+
+.contact{
+    margin-bottom: 72px;
+}
+
+.prava{
+    color:var(--light, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 0 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1200px){
+    body{
+        margin: 0 0 0 10px;
+    }
+}
+
+@media(max-width: 1200px){
+    .predpriatia-photo{
+        gap: 5px;
+    }
+}
+
+@media(max-width: 1180px){
+    .prepriatia-img{
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 1200px){
+    .zavod-images{
+        max-width: 90%;
+    }
+}
+
+@media(max-width: 1200px){
+    .nav_down{
+        max-width: 90%;
+    }
+}
+
+@media(max-width: 1000px){
+    .menu-list{
+        display: flex;
+        gap: 40px;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}
+
+@media(max-width: 800px){
+    .text-zavod{
+        display: flex;
+        gap: 20px;
+        align-items: baseline;
+        flex-direction: column;
+        margin: 0%;
+    }
+}
+
+@media(max-width: 780px){
+    .production-setka{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 650px){
+    .id-map{
+        width: 50%;
+    }
+}
+
+@media(max-width: 1200px){
+    .news-setka{
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 120px;
+    justify-items: center;
+    }
+}
+
+@media(max-width: 1200px){
+    .news-test{
+    width: 380px;
+    }
+}
+
+@media(max-width: 450px){
+    .news-setka{
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 120px;
+    
+    }
+}
